@@ -82,25 +82,23 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        {/* ========================================== */}
+{/* ========================================== */}
         {/* وحدة إعلانات جوجل أدسنس السفلية */}
         {/* ========================================== */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7579351935748180"
-     crossorigin="anonymous"></script>
-<!-- 336x280, تم إنشاؤها 18/01/10 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7579351935748180"
-     data-ad-slot="7958686967"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-          {/* لا تنسَ تغيير XXXXXXXXXX بمعرفات الإعلان الخاصة بك */}
+        
+        <div className="mt-8 flex justify-center">
+          {/* 336x280, تم إنشاؤها 18/01/10 */}
+          <ins 
+            className="adsbygoogle"
+            style={{ display: 'block' }}
+            data-ad-client="ca-pub-7579351935748180"
+            data-ad-slot="7958686967"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
         </div>
 
+        {/* ملاحظة: كود الـ Script يوضع عادة في ملف index.html الرئيسي ليعمل بشكل صحيح في React */}
         {/* Bottom bar */}
         <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-green-200/50 text-sm text-center md:text-right">
